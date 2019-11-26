@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T05:47:00.275Z",
+        "line": 3,
+        "name": "Add two number",
+        "description": "",
+        "id": "test-calculator;add-two-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1071700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter 50 in calculator",
+            "match": {
+              "location": "calc1.I_enter_50_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I press add",
+            "match": {
+              "location": "calc1.method2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have entered 50 in calculator",
+            "match": {
+              "location": "calc1.method3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "calc1.method4()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "\tThis file describes calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:nemi_package1/calc1f.feature",
+    "tags": []
+  }
+]
